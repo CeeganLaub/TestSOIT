@@ -106,7 +106,7 @@ export default async function DashboardPage() {
                 Welcome back, {session.user.name?.split(' ')[0]}
               </h1>
               <p className="text-gray-500 dark:text-gray-400">
-                Here's what's happening with {orgUser.organization.name}
+                Here&apos;s what&apos;s happening with {orgUser.organization.name}
               </p>
             </div>
             <div className="flex gap-3">

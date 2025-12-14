@@ -17,7 +17,7 @@ import {
   AlertTriangle,
   FolderOpen,
   File,
-  Image,
+  Image as ImageIcon,
   X,
 } from 'lucide-react';
 
@@ -107,7 +107,7 @@ const categories = ['All', 'Correspondence', 'Discovery', 'Medical', 'Agreements
 const typeIcons: Record<string, React.ReactNode> = {
   pdf: <FileText className="h-5 w-5 text-red-500" />,
   doc: <File className="h-5 w-5 text-blue-500" />,
-  image: <Image className="h-5 w-5 text-green-500" />,
+  image: <ImageIcon className="h-5 w-5 text-green-500" />,
   other: <File className="h-5 w-5 text-gray-500" />,
 };
 

@@ -15,7 +15,7 @@ import {
   Settings,
   Maximize,
   Minimize,
-  Record,
+  Circle,
   Square,
 } from 'lucide-react';
 
@@ -245,7 +245,7 @@ export function VideoRoom({
               className="rounded-full w-14 h-14"
               onClick={toggleRecording}
             >
-              {isRecording ? <Square className="h-6 w-6" /> : <Record className="h-6 w-6" />}
+              {isRecording ? <Square className="h-6 w-6" /> : <Circle className="h-6 w-6" />}
             </Button>
           )}
 

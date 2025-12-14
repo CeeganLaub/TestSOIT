@@ -148,7 +148,7 @@ export default function IntegrationsPage() {
   const { toast } = useToast();
   const [integrationsState, setIntegrationsState] = useState(integrations);
 
-  const categories = [...new Set(integrations.map((i) => i.category))];
+  const categories = Array.from(new Set(integrations.map((i) => i.category)));
 
   const handleConnect = async (integrationId: string) => {
     toast({

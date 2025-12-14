@@ -157,7 +157,7 @@ export default function NewCasePage() {
                   <p className="text-sm text-destructive">{errors.clientId.message}</p>
                 )}
                 <p className="text-xs text-gray-500">
-                  Don't see the client?{' '}
+                  Don&apos;t see the client?{' '}
                   <Link href="/clients/invite" className="text-law-navy hover:underline">
                     Invite them first
                   </Link>

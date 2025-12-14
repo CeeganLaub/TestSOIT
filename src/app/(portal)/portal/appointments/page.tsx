@@ -370,7 +370,7 @@ export default function ClientAppointmentsPage() {
                 <label className="text-sm font-medium">Additional Notes (optional)</label>
                 <textarea
                   className="w-full px-4 py-2 border rounded-lg min-h-[80px]"
-                  placeholder="Any specific topics you'd like to discuss..."
+                  placeholder="Any specific topics you&apos;d like to discuss..."
                 />
               </div>
 
@@ -378,7 +378,7 @@ export default function ClientAppointmentsPage() {
               <div className="flex items-start gap-2 p-3 bg-blue-50 rounded-lg">
                 <AlertCircle className="h-5 w-5 text-blue-600 flex-shrink-0 mt-0.5" />
                 <p className="text-sm text-blue-700">
-                  Appointments are typically confirmed within 24 hours. You'll receive an email
+                  Appointments are typically confirmed within 24 hours. You&apos;ll receive an email
                   confirmation with joining instructions.
                 </p>
               </div>

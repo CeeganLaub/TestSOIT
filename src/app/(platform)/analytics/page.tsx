@@ -137,7 +137,7 @@ export default async function AnalyticsPage() {
       {/* Header */}
       <div className="mb-6">
         <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Analytics</h1>
-        <p className="text-gray-500">Track your firm's performance and growth</p>
+        <p className="text-gray-500">Track your firm&apos;s performance and growth</p>
       </div>
 
       {/* Key Metrics */}

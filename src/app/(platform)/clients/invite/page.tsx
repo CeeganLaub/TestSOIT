@@ -173,7 +173,7 @@ export default function InviteClientPage() {
             <CardHeader>
               <CardTitle>Client Details</CardTitle>
               <CardDescription>
-                Enter the client's information to send an invitation.
+                Enter the client&apos;s information to send an invitation.
               </CardDescription>
             </CardHeader>
             <CardContent>

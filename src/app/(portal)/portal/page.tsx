@@ -83,7 +83,7 @@ export default function ClientPortalDashboard() {
         <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
           Welcome back, {clientData.name.split(' ')[0]}!
         </h1>
-        <p className="text-gray-500">Here's an overview of your case and upcoming tasks.</p>
+        <p className="text-gray-500">Here&apos;s an overview of your case and upcoming tasks.</p>
       </div>
 
       {/* Quick Actions */}

@@ -49,7 +49,7 @@ export default function HomePage() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-serif font-bold text-law-navy dark:text-white mb-6">
-            Transform Your Law Firm's
+            Transform Your Law Firm&apos;s
             <span className="text-law-gold"> Client Experience</span>
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-10">

@@ -117,11 +117,11 @@ export const authConfig: NextAuthConfig = {
   ],
   callbacks: {
     async jwt({ token, user, trigger, session }) {
-      if (user) {
+      if (user && user.id) {
         token.id = user.id;
-        token.firstName = user.firstName;
-        token.lastName = user.lastName;
-        token.organizations = user.organizations;
+        token.firstName = (user as any).firstName;
+        token.lastName = (user as any).lastName;
+        token.organizations = (user as any).organizations;
       }
 
       // Handle session updates

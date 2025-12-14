@@ -93,7 +93,7 @@ export default function ConsultationPage() {
         <div className="text-center">
           <Video className="h-12 w-12 text-gray-400 mx-auto mb-4" />
           <h2 className="text-xl font-semibold mb-2">Consultation Not Found</h2>
-          <p className="text-gray-500 mb-4">This consultation may have ended or doesn't exist.</p>
+          <p className="text-gray-500 mb-4">This consultation may have ended or doesn&apos;t exist.</p>
           <Button variant="navy" onClick={() => router.push('/calendar')}>
             Back to Calendar
           </Button>

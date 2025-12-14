@@ -264,7 +264,7 @@ export default async function OrganizationLandingPage({ params }: LandingPagePro
               <CardHeader>
                 <CardTitle>Request a Consultation</CardTitle>
                 <CardDescription>
-                  Fill out the form below and we'll get back to you within 24 hours.
+                  Fill out the form below and we&apos;ll get back to you within 24 hours.
                 </CardDescription>
               </CardHeader>
               <CardContent>
